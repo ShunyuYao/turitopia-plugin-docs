@@ -28,12 +28,25 @@
 | [English README template](templates/README.en.md) | 与中文模板对应的英文说明。 |
 | [中文说明块](snippets/context.zh-CN.md) | 补入已有中文 README 的产品介绍、官网和生态链接。 |
 | [English context block](snippets/context.en.md) | 补入已有英文 README 的对应内容。 |
+| [中文市场状态块](snippets/marketplace.zh-CN.md) | 记录实际是否上架、市场版本、核实时间与验证依据。 |
+| [English marketplace status block](snippets/marketplace.en.md) | 补入已有英文 README 的对应市场状态。 |
 
 ## 怎么采用
 
 1. 新项目将两份模板复制到仓库根目录，分别命名为 `README.md`、`README.en.md`，填写所有 `{{…}}` 占位内容。模板已提供语言切换链接。
 2. 已有项目将相应语言的说明块放在 README 前部、安装步骤之前；保留原有正文和文件命名，并修正语言切换链接。单文件双语 README 的两种语言部分都需要说明。
 3. 插件自身的用途、兼容版本、安装和配置步骤写在通用说明之后。发布前按实际版本核对，保留“计划中／未实现／未发布”等状态。
+4. 在安装步骤前填写“市场上线状态”，已有项目可复制市场状态块。所有语言版本保持相同状态、版本、日期和依据。
+
+## 市场状态如何填写
+
+- 选择实际状态：已上架、审核中、未上架、已下架或被禁用、未核实；SDK、脚手架和本说明仓库填“不适用”。
+- 以上架对应的插件 ID 和版本核对[正式登记清单](https://github.com/ShunyuYao/pet-plugin-registry/blob/main/registry/plugins.json)及[禁用清单](https://github.com/ShunyuYao/pet-plugin-registry/blob/main/registry/blocklist.json)，保存核实日期与固定提交链接；审核中附真实审核 PR。访问失败时标明未核实，不能把请求失败当作未上架。
+- 市场版本与源码版本、GitHub Release 分开写。旧版已上架而新版审核中时，同时保留两者状态；仅创建 Release 或提交审核不表示已上架。
+- 应用内是否可见、能否下载安装单独记录。登记核对不替代实际应用验证；写“成功上线且已验证”时应有对应版本的市场可见和安装验证证据，未做的部分明确标注未验证。
+- 上架、更新、下架或禁用后同步更新各语言 README；核实日期说明记录的时点，不能承诺状态永久不变。
+
+本仓库是说明与模板仓库，市场上线状态为“不适用”，不作为插件上架。
 
 ## 所有插件相关 README 的约定
 

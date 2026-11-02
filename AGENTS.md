@@ -5,6 +5,8 @@
 - The user's convention, confirmed on 2026-11-02, applies to all plugin-related READMEs and every existing language version.
 - Preserve product attribution: a plugin runs within Turi Topia; a developer tool must describe its actual ecosystem role.
 - Keep README.md, README.en.md, templates/, and snippets/ consistent. The marked context block must match its language's snippet.
+- Every plugin README must state actual marketplace status, listed version, last verification date, evidence, and in-app verification separately. Keep all language versions consistent; use Not applicable for documentation and developer tools. The marked marketplace block must match its language's snippet.
+- Verify live registry and blocklist data by plugin ID/version. Do not infer listing from public source, a GitHub Release, or an unmerged PR; do not infer successful in-app installation from registry data alone. Preserve the old listed version when a newer version is under review. Failed lookups mean Unverified, not Not listed.
 - Keep repository and package identifiers unchanged. The English product name is Turi Topia.
 - Do not add API claims or copy version-sensitive SDK tables here; link to the owning public repository.
 - Do not expose restricted host installers, update feeds, storage locations, credentials, local account data, or private repository links.
