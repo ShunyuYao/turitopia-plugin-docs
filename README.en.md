@@ -58,3 +58,9 @@ This repository contains documentation and templates. Its marketplace status is 
 - The website is the product information entry point. Do not include restricted host installers, update feeds, or storage locations. Public plugin source alone does not imply marketplace availability or compatibility with every host release.
 
 This convention records the user's decision of November 2, 2026. Future plugin READMEs should follow it. Adoption in existing repositories is tracked by their actual commits; creating this repository does not mean the migration is complete.
+
+## License
+
+The documentation, README templates, and context blocks in this repository are licensed under the **[MIT License](LICENSE)**.
+
+When copying or modifying this content, retain the original copyright and permission notices. Each plugin's code is governed by its own repository's license; adopting this template does not change that license. Complete the template's “License” section with the plugin's actual license and a link to its license file.

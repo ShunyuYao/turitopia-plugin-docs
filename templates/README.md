@@ -58,4 +58,8 @@
 
 {{填写本仓库真实可用的开发、验证命令与贡献方式。}}
 
+## 开源协议
+
+{{填写本插件实际采用的许可证名称，并链接仓库中的许可证文件。复用本模板和说明块时，请保留其原版权声明和许可声明。}}
+
 README 规范：[Turi Topia 插件文档](https://github.com/ShunyuYao/turitopia-plugin-docs)。

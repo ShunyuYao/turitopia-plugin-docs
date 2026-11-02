@@ -1,6 +1,7 @@
 # Documentation maintenance
 
 - This repository maintains shared README context and templates for Turi Topia (吐梨邦) plugins and related developer tools.
+- The user selected the MIT License for this repository on 2026-11-02. Keep LICENSE and both README license sections consistent. Templates must ask for each plugin's actual license; adopting these templates does not relicense another repository. Preserve original copyright and permission notices when reusing content.
 - Keep the introduction brief, followed by https://turitopia.com/ and the public scaffolding, SDK types, and registry links.
 - The user's convention, confirmed on 2026-11-02, applies to all plugin-related READMEs and every existing language version.
 - Preserve product attribution: a plugin runs within Turi Topia; a developer tool must describe its actual ecosystem role.

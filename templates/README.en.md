@@ -58,4 +58,8 @@ Track public source, GitHub Releases, and marketplace listing separately. If an 
 
 {{Provide working development and verification commands and contribution instructions for this repository.}}
 
+## License
+
+{{State this plugin's actual license and link to its license file. Retain the original copyright and permission notices when reusing this template and its context blocks.}}
+
 README convention: [Turi Topia Plugin Documentation](https://github.com/ShunyuYao/turitopia-plugin-docs/blob/main/README.en.md).
